@@ -1,0 +1,38 @@
+.container{
+  background-color: black;
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  border-bottom-left-radius:15px;
+  border-bottom-right-radius:15px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+.fluid{
+  color:white;
+  margin-left: 40px;
+}
+.fluid div{
+  margin-top: 14px;
+}
+body{
+  margin:0;
+}
+.para{
+  margin-top:70px;
+  margin-left:15px;
+  margin-right: 15px;
+  text-align: justify;
+}
+.fluid div:hover{
+  cursor: pointer;
+  color: aquamarine;
+  font-size: 40px;
+}
+.fluid p:hover{
+  color:aquamarine;
+  font-size: x-large;
+}
